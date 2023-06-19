@@ -6,8 +6,8 @@
 </head>
 <body>
 <!-- Header Area -->
-<div class="container ">
-    <h1>CURD</h1>
+<div class="container bg-info" style="background-color: green">
+    <h1><a href="http://127.0.0.1:8000/contact">CURD Header</a></h1>
 </div>
 
   
@@ -15,7 +15,10 @@
     @yield('content')
 </div>
 
-
+<!-- Footeer Area -->
+<div class="container " style="background-color: green">
+    <h1>CURD Footeer</h1>
+</div>
    
 </body>
 </html>

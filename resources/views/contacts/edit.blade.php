@@ -13,8 +13,13 @@
         <input type="text" name="name" id="name" value="{{$contacts->name}}" class="form-control"></br>
         <label>Address</label></br>
         <input type="text" name="address" id="address" value="{{$contacts->address}}" class="form-control"></br>
+
         <label>Mobile</label></br>
         <input type="text" name="mobile" id="mobile" value="{{$contacts->mobile}}" class="form-control"></br>
+
+        <label>Mail</label></br>
+        <input type="text" name="mail" id="mail" value="{{$contacts->mail}}" class="form-control"></br>
+
         <input type="submit" value="Update" class="btn btn-success"></br>
     </form>
    

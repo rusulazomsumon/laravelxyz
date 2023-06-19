@@ -39,3 +39,12 @@ class Handler extends ExceptionHandler
         });
     }
 }
+
+// fon handaling the exception
+// public function render($request, Throwable $e){
+//     if($request->is('api/*')){
+//         return reaponse()->json([
+//             'massage'=>'Record not found'
+//         ],400);
+//     }
+// }

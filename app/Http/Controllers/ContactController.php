@@ -9,7 +9,10 @@ class ContactController extends Controller
   
     public function index()
     {
+        //get all contacts 
         $contacts = Contact::all();
+
+        // retrun a view with the todos
       return view ('contacts.index')->with('contacts', $contacts);
     }
 
@@ -31,6 +34,7 @@ class ContactController extends Controller
     public function show($id)
     {
         $contact = Contact::find($id);
+        // with er por, contoller view te kivabe arry er sahajjo data pass kore ta dekhano hoyeche 
         return view('contacts.show')->with('contacts', $contact);
     }
 

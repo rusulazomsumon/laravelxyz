@@ -7,5 +7,5 @@ class Contact extends Model
 {
     protected $table = 'contacts';
     protected $primaryKey = 'id';
-    protected $fillable = ['name', 'address', 'mobile'];
+    protected $fillable = ['name', 'address', 'mobile', 'mail'];
 }

@@ -20,6 +20,7 @@
                                         <th>Name</th>
                                         <th>Address</th>
                                         <th>Telephone</th>
+                                        <th>Mail</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -30,6 +31,7 @@
                                         <td>{{ $item->name }}</td>
                                         <td>{{ $item->address }}</td>
                                         <td>{{ $item->mobile }}</td>
+                                        <td>{{ $item->mail }}</td>
  
                                         <td>
                                             <a href="{{ url('/contact/' . $item->id) }}" title="View Student"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
